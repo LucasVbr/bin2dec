@@ -2,7 +2,7 @@
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+    <img alt="License: Unlicense" src="https://img.shields.io/badge/License-Unlicense-yellow.svg" />
   </a>
 </p>
 
@@ -22,7 +22,6 @@ Give a ⭐️ if this project helped you!
 ## 📝 License
 
 Copyright © 2022 [LucasVbr](https://github.com/LucasVbr).<br />
-This project is [MIT](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt) licensed.
+This project is under the [Unlicense](https://unlicense.org/).
 
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+<!-- _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_ -->
