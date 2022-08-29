@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to Bin2Dec 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-0.1.1-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt" target="_blank">
     <img alt="License: Unlicense" src="https://img.shields.io/badge/License-Unlicense-yellow.svg" />
   </a>
