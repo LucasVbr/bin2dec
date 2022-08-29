@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import {Flex, Input, Text} from '@chakra-ui/react';
-import {ArrowDownIcon} from '@chakra-ui/icons';
+import {Flex, Input} from '@chakra-ui/react';
+import {ArrowDownIcon, ArrowForwardIcon} from '@chakra-ui/icons';
 
 export default function Content() {
   // States
@@ -33,10 +33,24 @@ export default function Content() {
 
   // Render
   return (
-      <Flex align={'center'} flexDirection={'column'} marginX={10}>
-        <Input variant="filled" placeholder={"Binary"} value={input} onChange={handleInput}/>
-        <ArrowDownIcon marginY={5} boxSize={8} rounded={'rounded'}/>
-        <Text fontSize={'2xl'} align={'center'}>{output}</Text>
+      <Flex align={'center'} flexDirection={{
+        base: 'column',
+        md: 'row',
+      }} marginX={{
+        base: 10,
+        md: 'auto',
+      }}>
+        <Input type={'number'} width={'8em'} variant="filled"
+               placeholder={'Binary'} value={input} onChange={handleInput}/>
+
+        <ArrowDownIcon marginY={5} boxSize={8} display={{md: 'none'}}/>
+        <ArrowForwardIcon marginX={5} boxSize={8} display={{
+          base: 'none',
+          md: 'block'
+        }}/>
+
+        <Input type={'number'} width={'8em'} variant={'filled'} value={output}
+        placeholder={"Decimal"}/>
       </Flex>
   );
 }

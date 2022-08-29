@@ -5,7 +5,7 @@ export default function Footer() {
       <Box m={4}>
         <Divider/>
         <Text align={'center'} marginTop={4}>
-          <Link>See code on GitHub</Link>
+          <Link href={"https://github.com/LucasVbr/bin2dec"} target={'_blank'}>See code on GitHub</Link>
         </Text>
       </Box>
   );
