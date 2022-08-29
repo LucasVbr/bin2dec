@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Box, Center, Flex, Input, Text} from '@chakra-ui/react';
+import {Flex, Input, Text} from '@chakra-ui/react';
 import {ArrowDownIcon} from '@chakra-ui/icons';
 
 export default function Content() {
